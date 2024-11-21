@@ -1,3 +1,4 @@
+import Heading from "@/components/heading";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 
 const Page = () => {
@@ -9,7 +10,7 @@ const Page = () => {
             className="relative mx-auto text-center flex flex-col items-center 
          gap-10"
           >
-            hello
+            <Heading> Real Time SaaS Insights</Heading>
           </div>
         </MaxWidthWrapper>
       </section>
