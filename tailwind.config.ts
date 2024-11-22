@@ -12,6 +12,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         heading: ["var(--font-heading)", ...fontFamily.sans],
+        parkinsans: ["Parkinsans", "sans-serif"],
       },
       colors: {
         brand: {
